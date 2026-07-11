@@ -1,0 +1,37 @@
+# Nextflow
+.nextflow*
+work/
+null/
+
+# Pipeline outputs & downloaded data (regenerated via download_data.sh / make_test_data.sh)
+reference/
+reads/
+results/
+snpeff_cache/
+snpeff_data/
+data/
+
+# Stray genomic files pulled into the repo by remote streaming
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.tbi
+*.idx
+*.fa
+*.fasta
+*.fa.gz
+*.fasta.gz
+*.fai
+*.dict
+*.fastq.gz
+*.fq.gz
+
+# Misc
+*.log
+*.zip
+__pycache__/
+*.pyc
+.DS_Store

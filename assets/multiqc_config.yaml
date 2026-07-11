@@ -1,0 +1,14 @@
+title: "WGS Germline Variant-Calling Report"
+subtitle: "GATK4 best practices (Nextflow DSL2) — alignment, BQSR, joint genotyping, hard-filtering, annotation"
+intro_text: "QC across FastQC, samtools flagstat, MarkDuplicates, bcftools stats, snpEff, and a custom VCF summary."
+report_comment: "Rule-based hard-filtering (no VQSR/ML). Benchmarked against GIAB HG002 v4.2.1 when --benchmark is set."
+
+module_order:
+  - fastqc
+  - samtools
+  - picard
+  - snpeff
+  - bcftools
+
+custom_logo_title: "wgs-germline-nf"
+show_analysis_paths: false
