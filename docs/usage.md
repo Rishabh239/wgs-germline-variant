@@ -27,9 +27,9 @@ and point `--fasta` etc. at the S3 paths.
 
 There is no tiny official HG002 sample — the reads are all full WGS. Build a
 **chr20 slice** instead: it's ~1–3 GB, runs the whole pipeline (including the
-hap.py benchmark) in ~15–30 min on a laptop, and still gives a real
-precision/recall number. chr20 is the field-standard held-out benchmark
-chromosome.
+hap.py benchmark) in about 80 min on a 4-CPU laptop (measured; see
+[`report/`](../report/README.md)), and still gives a real precision/recall
+number. chr20 is the field-standard held-out benchmark chromosome.
 
 ```bash
 ./download_data.sh --truth      # small; needed for the chr20 truth subset

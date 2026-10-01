@@ -1,0 +1,6 @@
+callset,tp_returned,fp_returned,recall,precision,f1
+All hard filters (PASS),0,0,0.984579,0.995253,0.989887
+Without QD < 2,14,73,0.984776,0.994226,0.989478
+Without SOR > 3,543,88,0.992192,0.994059,0.993124
+Without MQ < 40,111,41,0.986135,0.994683,0.990391
+No filters (ALL),686,256,0.994196,0.991736,0.992964

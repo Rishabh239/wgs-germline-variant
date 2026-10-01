@@ -22,3 +22,6 @@ results/
 **Reading the callset:** `FILTER == PASS` passed all hard filters; other tags
 (e.g. `QD2`, `FS60`) name the filter(s) a record failed. The raw records are
 retained (soft-filtered) so nothing is silently dropped.
+
+**Benchmark report:** `python report/make_report.py --results results` turns a
+`--benchmark` run into the tables and figures in [`report/`](../report/README.md).

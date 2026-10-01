@@ -1,0 +1,22 @@
+metric,value,source
+Read pairs,6220215,FastQC
+Read length (bp),148,FastQC
+Sequenced bases,1841183640,FastQC
+"Reference length, non-N (bp)",63944257,chr20.fa
+Raw depth (bases / non-N length),28.8,derived
+High-confidence region (bp),56916239,HG002.chr20.bed
+Mapped reads (%),99.7,samtools flagstat
+Properly paired (%),98.55,samtools flagstat
+Duplicate rate (%),0.23,MarkDuplicates
+Variant records,126976,vcf_summary.py
+PASS records,116904,vcf_summary.py
+PASS rate (%),92.07,vcf_summary.py
+SNP records,106407,vcf_summary.py
+INDEL records,20348,vcf_summary.py
+"Ti/Tv, all records",1.893,vcf_summary.py
+"Het / hom-alt ratio, all records",2.486,vcf_summary.py
+"Ti/Tv, PASS callset",1.99,hap.py
+"Ti/Tv, PASS true positives",2.31,hap.py
+"Ti/Tv, PASS false positives",1.41,hap.py
+"Ti/Tv, PASS calls outside high-confidence regions",1.39,hap.py
+"Ti/Tv, GIAB truth",2.31,hap.py
