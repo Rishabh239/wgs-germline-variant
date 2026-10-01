@@ -1,0 +1,9 @@
+type,genotype,truth_total,tp,fn,recall,fp
+SNP,het,45053,44265,788,0.982509,331
+SNP,homalt,26255,25945,310,0.988193,4
+SNP,FP: wrong genotype,,,,,27
+SNP,FP: wrong allele,,,,,5
+INDEL,het,6428,6304,124,0.980709,84
+INDEL,homalt,4116,4068,48,0.988338,48
+INDEL,FP: wrong genotype,,,,,30
+INDEL,FP: wrong allele,,,,,74

@@ -1,0 +1,4 @@
+type,filtered_callset,precision,recall,qual_cutoff_same_precision,qual_cutoff_recall,recall_difference_pts
+SNP,All hard filters (PASS),0.995253,0.984579,106.6,0.985308,0.07
+SNP,Hard filters without SOR > 3,0.994059,0.992192,61.8,0.991967,-0.02
+INDEL,All hard filters (PASS),0.988452,0.97619,43.8,0.974325,-0.19

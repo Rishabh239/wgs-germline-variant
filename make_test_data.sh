@@ -4,8 +4,8 @@
 #
 # Produces a chr20-only reference, chr20 known-sites, chr20 GIAB truth, and
 # ~30x HG002 chr20 reads (streamed from the GRCh38 300x BAM). Total ~1-3 GB;
-# the whole pipeline incl. the hap.py benchmark then runs on a laptop in
-# ~15-30 min. chr20 is the field-standard held-out benchmark chromosome.
+# the whole pipeline incl. the hap.py benchmark then runs on a 4-CPU laptop in
+# ~80 min. chr20 is the field-standard held-out benchmark chromosome.
 #
 #   ./make_test_data.sh
 #   nextflow run . -profile test,docker --input assets/samplesheet.chr20.csv

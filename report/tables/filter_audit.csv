@@ -1,0 +1,13 @@
+type,filter,tp_removed,fp_removed,tp_removed_only_by_this,fp_removed_only_by_this,fp_share_of_removed
+SNP,QD2,15,102,14,73,0.8718
+SNP,QUAL30,0,0,0,0,
+SNP,SOR3,561,142,543,88,0.202
+SNP,FS60,0,0,0,0,
+SNP,MQ40,128,66,111,41,0.3402
+SNP,MQRankSum-12.5,0,0,0,0,
+SNP,ReadPosRankSum-8,0,0,0,0,
+INDEL,QD2,2,4,2,4,0.6667
+INDEL,QUAL30,0,0,0,0,
+INDEL,FS200,0,0,0,0,
+INDEL,ReadPosRankSum-20,0,0,0,0,
+INDEL,SOR10,0,0,0,0,
